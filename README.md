@@ -147,6 +147,8 @@ The Authflow dashboard is organized into several main sections. Here's what each
   - List of all your paywalls with key metrics
 - **Use it for**: Getting a quick snapshot of your business performance
 
+![Authflow Dashboard](https://firebasestorage.googleapis.com/v0/b/facesift.firebasestorage.app/o/user_uploads%2F83EXwNWgaKe1BHmyd9ISw3HCEfi2%2F1765256059158-Screenshot%202025-12-08%20235404.png?alt=media&token=5b70a188-05c4-4c03-b74c-f2034f7ca5bc)
+
 #### **Analytics**
 - **Purpose**: Detailed analytics and reporting
 - **What you'll see**:
@@ -169,6 +171,8 @@ The Authflow dashboard is organized into several main sections. Here's what each
   - Integration credentials (after creation)
 - **Use it for**: Creating new monetization options for your GPTs
 
+![Create Paywall Page](https://firebasestorage.googleapis.com/v0/b/facesift.firebasestorage.app/o/user_uploads%2F83EXwNWgaKe1BHmyd9ISw3HCEfi2%2F1765256105553-Screenshot%202025-12-08%20235458.png?alt=media&token=3bb3b04c-5da6-47ff-971a-385d766f52d3)
+
 #### **My Paywalls**
 - **Purpose**: Manage all your existing paywalls
 - **What you'll see**:
@@ -183,6 +187,8 @@ The Authflow dashboard is organized into several main sections. Here's what each
   - Accessing integration details
   - Monitoring performance
   - Downloading reports
+
+![My Paywalls Page](https://firebasestorage.googleapis.com/v0/b/facesift.firebasestorage.app/o/user_uploads%2F83EXwNWgaKe1BHmyd9ISw3HCEfi2%2F1765256161512-Screenshot%202025-12-08%20235552.png?alt=media&token=5a999800-9584-4951-9545-2c3ddcd537ab)
 
 ### 👤 ACCOUNT Section
 
@@ -351,12 +357,16 @@ Before starting the integration, make sure you have:
 3. Find your paywall and click the **"Go"** button in the "Manage" column
 4. This opens the paywall details page where you'll find all integration information
 
+![Paywall Integration Details](https://firebasestorage.googleapis.com/v0/b/facesift.firebasestorage.app/o/user_uploads%2F83EXwNWgaKe1BHmyd9ISw3HCEfi2%2F1765256222585-Screenshot%202025-12-08%20235655.png?alt=media&token=2e301877-996a-4609-8ce8-7e0d82ca22cf)
+
+*The paywall details page shows all the integration information you need: GPT Schema, API Header Key, API Header Name, Privacy Policy, and Top Context Instructions.*
+
 ### Step 2: Copy the Schema
 
 On the paywall details page, you'll see:
 
-1. **Schema**: This is the OpenAPI schema code you need to copy
-   - Look for a field or section labeled "Schema" 
+1. **GPT Schema**: This is the OpenAPI schema code you need to copy
+   - Look for the section labeled "GPT Schema" 
    - Click the **"Copy"** button next to it
    - This contains all the API endpoint definitions
 
@@ -366,14 +376,15 @@ On the paywall details page, you'll see:
 
 You'll also need to copy:
 
-1. **API Key** (also called "Header Key"): 
+1. **API Header Key**: 
    - This is your unique authentication token
-   - Look for a field labeled "API Key" or "Header Key"
+   - Look for the field labeled "API Header Key"
    - Click **"Copy"** to copy it
 
-2. **Custom Header Name**:
+2. **API Header Name**:
    - This is the header name for the API key (usually `x-api-key` or similar)
-   - Copy this as well
+   - Look for the field labeled "API Header Name"
+   - Click **"Copy"** to copy it
 
 > **Important**: Keep your API key secret and never share it publicly!
 
@@ -420,10 +431,10 @@ This is where you connect your API key. **This step is required for the paywall 
 **Important**: You need to add the privacy policy for the action to work properly:
 
 1. On the Authflow paywall details page, find the **"Privacy Policy"** section
-2. **Copy** the privacy policy URL or text
+2. **Copy** the privacy policy (click the **"Copy"** button)
 3. Go back to your GPT action configuration
 4. Find the **"Privacy Policy"** field in the action settings
-5. **Paste** the privacy policy URL/text there
+5. **Paste** the privacy policy there
 6. This is Authflow's universal privacy policy that explains the paywall integration to users
 
 > **Note**: This privacy policy is specific to the Authflow action. If you have other actions in your GPT, you may want your own privacy policy for those, but for the Authflow action, use Authflow's privacy policy.
@@ -432,8 +443,8 @@ This is where you connect your API key. **This step is required for the paywall 
 
 This is the **most important step** - without this, your paywall won't work:
 
-1. On the Authflow paywall details page, find **"Top Context Instructions"** or **"Instructions"**
-2. **Copy** these instructions (they're specifically designed to work with the schema)
+1. On the Authflow paywall details page, find **"Top Context Instructions"**
+2. **Copy** these instructions (click the **"Copy"** button)
 3. Go back to your GPT configuration
 4. Scroll to the **"Instructions"** field (the main system prompt at the top of the Configure tab)
 5. **Paste these instructions at the VERY TOP** of your instructions field
