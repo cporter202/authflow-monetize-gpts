@@ -245,18 +245,6 @@ The Authflow dashboard is organized into several main sections. Here's what each
   - Sign-up information
 - **Use it for**: Earning money by referring others to Authflow
 
-### 🔧 ADMINISTRATION Section (Advanced)
-
-> **Note**: This section is typically for advanced users or administrators. Most users won't need to access this.
-
-#### **Admin Dashboard**
-- **Purpose**: Administrative overview (if you have admin access)
-- **Use it for**: System-wide management (if applicable)
-
-#### **Customers**
-- **Purpose**: View and manage all customers across paywalls
-- **Use it for**: Customer management and support
-
 ---
 
 ## Quick Navigation Tips
