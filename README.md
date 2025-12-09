@@ -542,6 +542,10 @@ Once you've completed the integration, here's what users will experience:
 2. **Verification Prompt**: Instead of getting help immediately, they see:
    > *"Before we continue, please verify your subscription with [Your GPT Name] by providing your email address. You can register for your access [here]. Once verified, I'll be happy to assist you."*
 
+![GPT Asking for Subscription Verification](https://firebasestorage.googleapis.com/v0/b/facesift.firebasestorage.app/o/user_uploads%2F83EXwNWgaKe1BHmyd9ISw3HCEfi2%2F1765257538385-Screenshot%202025-12-09%20001839.png?alt=media&token=69dbb7f2-4e6c-4770-88ae-2185616364dd)
+
+*This is what users see when they try to access your GPT - the paywall prompt asking them to verify their subscription or sign up.*
+
 3. **User Provides Email**: They type their email address
 4. **API Check**: Your GPT calls the Authflow API to verify if that email has an active subscription
 5. **Two Possible Outcomes**:
