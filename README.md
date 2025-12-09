@@ -1,6 +1,6 @@
 <div align="center">
 
-# How to Monetize Your Custom GPTs on ChatGPT with Authflow.ai 💰
+# How to Monetize Your Custom GPTs directly on ChatGPT with Authflow.ai 💰
 
 ![Authflow Header](https://firebasestorage.googleapis.com/v0/b/facesift.firebasestorage.app/o/user_uploads%2F83EXwNWgaKe1BHmyd9ISw3HCEfi2%2F1765257859893-Screenshot%202025-12-09%20002411.png?alt=media&token=9db96d0a-123e-471c-854a-4c5412f0341b)
 
